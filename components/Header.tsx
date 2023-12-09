@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <Box sx={{ display: "flex", justifyContent: "space-between", padding: "1rem 2rem", backgroundColor: isDarkMode ? "#2b3743" : "#ffffff", boxShadow: "0px 2px 2px lightgrey"}}>
-        <Typography variant='h1' sx={{ fontSize: "2rem", fontWeight: 700}}>
+        <Typography variant='h1' sx={{ fontSize: "2rem", fontWeight: 700, color: isDarkMode ? "#b0bec5" : "#2b3743", fontFamily: "fantasy"}}>
             Where in the world?
         </Typography>
         <Button onClick={toggleDarkMode}>
